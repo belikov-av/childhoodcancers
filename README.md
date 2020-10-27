@@ -5,6 +5,7 @@ Current repository contains code for reproduce article: (**past link here**).
 
 ## Requirements and installation
 Analysis is done with Python 3.7.
+
 To install all the requirements, please run the command:
 `pip install -r requirements.txt`
 
