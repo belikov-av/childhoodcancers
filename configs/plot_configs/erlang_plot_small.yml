@@ -1,0 +1,23 @@
+distribution: "Erlang"
+arg1_name: "k"
+arg2_name: "b"
+arg1_size: 400
+arg2_size: 400
+num_ticks: 10
+width: 400
+height: 400
+fontsize: 11
+colorbar_thickness: 15 # in pixels
+# margins
+margin_l: 0
+margin_r: 0
+margin_b: 0
+margin_t: 30
+# optimum point size
+opt_size: 3
+# if we need colorbar
+is_colorbar: False
+# if we need "optimal value" inscription
+is_opt_value: False
+# to show or not distr_name
+show_distr_name: False

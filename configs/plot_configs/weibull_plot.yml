@@ -1,0 +1,6 @@
+distribution: "Weibull"
+arg1_name: "k"
+arg2_name: "lambda"
+arg1_size: 400
+arg2_size: 400
+num_ticks: 10

@@ -1,0 +1,6 @@
+distribution: "Normal"
+arg1_name: "mu"
+arg2_name: "sigma"
+arg1_size: 400
+arg2_size: 400
+num_ticks: 10

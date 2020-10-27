@@ -1,0 +1,9 @@
+distr_name: "weibull"
+
+arg1_start: 0.01
+arg1_stop: 4
+arg1_num_points: 400
+
+arg2_start: 0.1
+arg2_stop: 40
+arg2_num_points: 400

@@ -1,0 +1,6 @@
+distribution: "Logistic"
+arg1_name: "mu"
+arg2_name: "s"
+arg1_size: 400
+arg2_size: 400
+num_ticks: 10

@@ -1,0 +1,6 @@
+distribution: "Extreme value"
+arg1_name: "mu"
+arg2_name: "beta"
+arg1_size: 400
+arg2_size: 400
+num_ticks: 10

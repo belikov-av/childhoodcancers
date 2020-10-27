@@ -1,0 +1,9 @@
+distr_name: "extreme_value"
+
+arg1_start: 0.1
+arg1_stop: 40
+arg1_num_points: 400
+
+arg2_start: 0.05
+arg2_stop: 20
+arg2_num_points: 400
