@@ -8,12 +8,14 @@ Analysis is done with Python 3.7.
 
 To install all the requirements, please run the command:
 
-```pip install -r requirements.txt```
+`pip install -r requirements.txt`
 
 ## Scripts description
 In order to read information about script arguments,
 please run the command:
-```python <script_path> -h```, 
+
+`python <script_path> -h`, 
+
 where `script_path` is path to the script.
 
 Detailed scripts' description is presented below.
