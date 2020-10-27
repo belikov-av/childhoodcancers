@@ -17,7 +17,7 @@ Detailed scripts' description is presented below.
 
 ### 1. Distribution parameters calculation
 
-Script `surf_not_ln.py` calculates $R^2$ scorefor every pair of parameters
+Script `surf_not_ln.py` calculates R<sup>2</sup>$ score for every pair of parameters
 for current distribution and current grid.
 To change the grid, please change `configs/fit_configs/<distribution_name>.yml` file.
 
