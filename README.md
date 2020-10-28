@@ -28,11 +28,18 @@ To change the grid, please change `configs/fit_configs/<distribution_name>.yml` 
 
 Script starts calculation for all cohorts in parallel.
 
-**!Warning!** Running this script with default grid parameters takes about 7 hours on CPU.
+:heavy_exclamation_mark:**Warning**:heavy_exclamation_mark:
+Running this script with default grid parameters takes about 7 hours on CPU.
 
 ### 2. Optimal parameters and intervals extraction
 
-Script ``
+Script `find_all_opts.py` takes folder path as input,
+which should contains folders `<distribution_name>_child_r2` folders 
+(outputs from script `grid_search.py` for every distribution).
+Then script finds optimal parameters and R<sup>2</sup> score for each
+distribution and each cohort, gathers it in one table.
+
+
 
 ### 3. Plotting metric surface
 
