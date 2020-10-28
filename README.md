@@ -30,7 +30,11 @@ Script starts calculation for all cohorts in parallel.
 
 **!Warning!** Running this script with default grid parameters takes about 7 hours on CPU.
 
-### 2. Plotting metric surface
+### 2. Optimal parameters and intervals extraction
+
+Script ``
+
+### 3. Plotting metric surface
 
 Script `plot_surfaces.py` takes as input path output folder from script `grid_search.py` 
 and visualize the results. Basically, it plots contour plot for two parameters and 
