@@ -42,7 +42,7 @@ which should contain `<distribution_name>_child_r2` folders
 Then the script finds the optimal parameters and the R<sup>2</sup> score for each
 distribution and each cohort, and gathers it in one table.
 
-The script  takes as an input the path to the folder, 
+The script `find_intervals.py` takes as an input the path to the folder, 
 which is the output of the `grid_search,py` script, thus contains tables with 
 parameters and scores for current distribution and all cohorts.
 Then it finds the confidence interval for each parameter.
