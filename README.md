@@ -1,7 +1,7 @@
 # Childhood cancers
 
 ## Description
-Current repository contains code for reproduce article: (**past link here**).
+Current repository contains code to reproduce the article: (**past link here**).
 
 ## Requirements and installation
 Analysis is done with Python 3.7.
@@ -29,3 +29,13 @@ To change the grid, please change `configs/fit_configs/<distribution_name>.yml` 
 Script starts calculation for all cohorts in parallel.
 
 **!Warning!** Running this script with default grid parameters takes about 7 hours on CPU.
+
+### 2. Plotting metric surface
+
+Script `plot_surfaces.py` takes as input path output folder from script `grid_search.py` 
+and visualize the results. Basically, it plots contour plot for two parameters and 
+R<sup>2</sup> score. Note that in `configs/plot_configs/<distribution_name>_plot.yml`
+file (`distribution_name` is the name of current distribution) you may change plotting parameters.
+
+Also note that it is possible to change a lot of plotting parameters, as in config file
+`configs/plot_configs/erlang_plot_small.yml`.
