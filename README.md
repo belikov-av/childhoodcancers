@@ -26,6 +26,9 @@ Script `grid_search.py` calculates R<sup>2</sup> score for every pair of paramet
 for current distribution and current grid.
 To change the grid, please change `configs/fit_configs/<distribution_name>.yml` file.
 
+:floppy_disk: Input data for the script contains in `data/Childhood Incidence Data.xlsx`
+file. Detailed explanation of the file content and the way it was retrieved could be found in the article.
+
 Script starts calculation for all cohorts in parallel.
 
 :heavy_exclamation_mark:**Warning**:heavy_exclamation_mark:
