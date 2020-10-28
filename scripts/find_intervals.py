@@ -13,7 +13,7 @@ from tqdm import tqdm
 def parse_args():
     parser = argparse.ArgumentParser(description='This script takes ' +
                                                  'path to input folder, with cohort files '+
-                                                 'and fins intervals for all parameters.' +
+                                                 'and finds intervals for all parameters.' +
                                                  '\n' + 'If output folder does not exist, script will create it.')
     parser.add_argument('-i', '--input_folder', type=str,
                         help='full path to input folder with points data')
