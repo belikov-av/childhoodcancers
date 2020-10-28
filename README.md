@@ -33,13 +33,16 @@ Running this script with default grid parameters takes about 7 hours on CPU.
 
 ### 2. Optimal parameters and intervals extraction
 
-Script `find_all_opts.py` takes folder path as input,
+Script `find_all_opts.py` takes as input folder path,
 which should contains folders `<distribution_name>_child_r2` folders 
 (outputs from script `grid_search.py` for every distribution).
 Then script finds optimal parameters and R<sup>2</sup> score for each
 distribution and each cohort, gathers it in one table.
 
-
+Script `find_intervals.py` takes as input folder path, 
+which is the output of `grid_search,py` script, thus contains tables with 
+parameters and scores for current distribution and all cohorts.
+Then it finds confidence interval for each parameter.
 
 ### 3. Plotting metric surface
 
