@@ -1,7 +1,7 @@
 # Childhood cancers
 
 ## Description
-Current repository contains code to reproduce the article "The Poisson process is the universal law of cancer development: driver mutations accumulate randomly, silently, at constant rate and for many decades, likely in stem cells" by Aleksey V Belikov , Alexey D Vyatkin and Sergey V Leonov: (**paste link here**).
+Current repository contains code to reproduce the article "The Erlang distribution approximates the age distribution of incidence of childhood and young adulthood cancers" by Aleksey V Belikov , Alexey D Vyatkin and Sergey V Leonov: (**paste link here**).
 
 ## Requirements and installation
 Analysis is done with Python 3.7.
