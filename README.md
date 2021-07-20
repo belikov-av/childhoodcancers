@@ -27,7 +27,7 @@ for the current distribution and the current grid.
 To change the grid, please change the `configs/fit_configs/<distribution_name>.yml` file.
 
 :floppy_disk: Input data for the script are contained in the `data/Childhood Incidence Data.xlsx`
-file. Detailed explanation of the file content and the way it was retrieved could be found in the article.
+file. Detailed explanation of the file content and the way it was retrieved could be found in the "Data acquisition" section of the article.
 
 The script starts calculation for all cohorts in parallel.
 
